@@ -11,4 +11,22 @@ This is an OOP PHP class to monitor , save and redirect referrers from .ru domai
 <li>Secure aw stats or any other analytics software you have (You must and you should have them all ready secured)</li>
 <li>Redirect a range of IPs from .ru sites in your .htaccess (Althought a popular technique, not recomended since you might block good referer urls as well)</li>
 <li>Keep a blacklist and check against this list to block the incoming hit before it would get into account, finally redirect them back to their home</li></ul>
-To be continued from here.... got to go.
+
+<h2>Dealing with the problem with PHP</h2>
+<p>The solution I came up is to monitor all those referer urls and treat them accordingly. If a referer from a .ru domain is found it gets blacklisted and we redirect them to their origin. I am sure there are better ways out there but since I am a PHP guy I go with php.</p>
+
+<h2>Basic Usage</h2>
+<p> In the most simple way the class can be used like this
+<pre>$mama = new DetectRu("www.example.ru");</pre>
+Go through the examples directory for more</p>
+
+<h2>To Do</h2>
+<ul>
+<li>Add a check function to check if the provided argument is a valid url</li>
+<li>Add support for txt lookup of unwanted strings like .ru (ex. also look for China (.sn) domains)</li>
+<li>Add check to be able to supply $_SERVER or string (at the moment only strings are welcome)</li>
+<li>Code cleanup and improvement</li>
+<ul>
+
+You can find the original post at <a href="http://www.tsartsaris.gr" target="_blank">www.tsartsaris.gr</a>
+Mail me info@tsartsaris.gr or tsartsaris@gmail.com for anything you want. Cheers.
