@@ -92,13 +92,13 @@ class DetectRu{
 		$this->checkDouble(); //check if the referer url is all ready listed in our file
 		if ($this->double_flag == 1) { //found in our list so go home
 			$this->closeTxt(); //close the handler
-			$this->SendThemHomeMama(); //send them home mama
+			$this->sendThemHomeMama(); //send them home mama
 		}elseif ($this->double_flag == 0) { //if not found in our list
 			$this->checkRu(); //check to see if it comes from .ru domain
 			if( $this->check_ru_flag ) { //if yes
 				$this->writeToFile(); //add url to the list
 				$this->closeTxt(); //close the handle
-				$this->SendThemHomeMama(); //send them back home
+				$this->sendThemHomeMama(); //send them back home
 			}
 		}else{
 				$this->closeTxt(); //url referer is fine, go on and browse the site
@@ -181,7 +181,7 @@ class DetectRu{
 /**
 *	Simple redirect to the original url they came from
 */
-	protected function SendThemHomeMama(){
+	protected function sendThemHomeMama(){
 		header('Location: http://' . $this->input_url, true, 303);
    			break;
 	}
