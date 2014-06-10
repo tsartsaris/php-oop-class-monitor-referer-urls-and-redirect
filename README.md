@@ -23,7 +23,7 @@ Go through the examples directory for more</p>
 <h2>To Do</h2>
 <ul>
 <li>Add a check function to check if the provided argument is a valid url</li>
-<li>Add support for txt lookup of unwanted strings like .ru (ex. also look for China (.sn) domains)</li>
+<li>Add support for txt lookup of unwanted strings like .ru (ex. also look for China (.cn) domains)</li>
 <li>Add check to be able to supply $_SERVER or string (at the moment only strings are welcome)</li>
 <li>Code cleanup and improvement</li>
 <ul>
