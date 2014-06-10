@@ -184,7 +184,7 @@ class DetectRu{
 */
 	protected function sendThemHomeMama(){
 		header('Location: http://' . $this->input_url, true, 303);
-   			break;
+   			exit;
 	}
 
 }
