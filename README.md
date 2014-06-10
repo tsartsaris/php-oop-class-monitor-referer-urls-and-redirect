@@ -28,5 +28,6 @@ Go through the examples directory for more</p>
 <li>Code cleanup and improvement</li>
 <ul>
 
-You can find the original post at <a href="http://www.tsartsaris.gr" target="_blank">www.tsartsaris.gr</a>
+<h2>Examples</h2>
+You can find the original post and examples of useage at <a href="http://www.tsartsaris.gr/send-them-home-mama" target="_blank">www.tsartsaris.gr</a>
 Mail me info@tsartsaris.gr or tsartsaris@gmail.com for anything you want. Cheers.
