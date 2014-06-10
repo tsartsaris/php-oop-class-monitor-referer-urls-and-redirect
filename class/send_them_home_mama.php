@@ -35,8 +35,9 @@
  * @copyright  2014 Tsartsaris.gr
  * @license    https://www.gnu.org/licenses/gpl.html
  * @version    Release: v 1.0.0
- * @link       @to change@
- */
+ * @link       https://github.com/tsartsaris/php-oop-class-monitor-referer-urls-and-redirect
+ * @link       http://www.tsartsaris.gr/send-them-home-mama
+ */ 
 
 
 class DetectRu{
