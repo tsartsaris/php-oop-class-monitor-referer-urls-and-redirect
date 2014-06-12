@@ -29,7 +29,7 @@ Go through the examples directory for more</p>
 <ul>
 
 <h2>Examples</h2>
-You can find the original post and examples of useage at <a href="http://www.tsartsaris.gr/send-them-home-mama" target="_blank">www.tsartsaris.gr</a>
+You can find the original post and examples of useage at <a href="http://www.tsartsaris.gr/send-them-home-mama" target="_blank">this post</a>
 
 <h2>Results</h2>
 Check out the results folder for so far stored hits. Non .ru domains inspected carefuly before submition in the list. 
